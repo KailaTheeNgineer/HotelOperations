@@ -20,7 +20,7 @@ public class Room {
     public double getPrice() {
         return this.price;
     }
-    public boolean isOccupied() {
+    public boolean isOccupied(boolean b) {
         return this.occupied;
     }
     public boolean isDirty() {
